@@ -1,0 +1,87 @@
+[
+  {
+    "label": "0",
+    "img": "/static/chest-xray-sample-images/NORMAL/IM-0115-0001.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "0",
+    "img": "/static/chest-xray-sample-images/NORMAL/IM-0117-0001.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "0",
+    "img": "/static/chest-xray-sample-images/NORMAL/IM-0119-0001.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "0",
+    "img": "/static/chest-xray-sample-images/NORMAL/IM-0122-0001.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "0",
+    "img": "/static/chest-xray-sample-images/NORMAL/IM-0125-0001.jpeg",
+    "date": "07/18/2018"
+  },
+    {
+    "label": "0",
+    "img": "/static/chest-xray-sample-images/NORMAL/IM-0129-0001.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "1",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/bacteria/person1_bacteria_1.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "1",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/bacteria/person1_bacteria_2.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "1",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/bacteria/person2_bacteria_3.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "1",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/bacteria/person2_bacteria_4.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "1",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/bacteria/person3_bacteria_10.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "2",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/virus/person80_virus_150.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "2",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/virus/person81_virus_152.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "2",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/virus/person81_virus_153.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "2",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/virus/person82_virus_154.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "2",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/virus/person82_virus_155.jpeg",
+    "date": "07/18/2018"
+  },
+  {
+    "label": "2",
+    "img": "/static/chest-xray-sample-images/PNEUMONIA/virus/person83_virus_156.jpeg",
+    "date": "07/18/2018"
+  }
+]

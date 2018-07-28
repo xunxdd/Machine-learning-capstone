@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8">sour <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>AI in Health Care - Pneumonia X-Ray </title>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <!-- Animate -->
+    <link rel="stylesheet" href="/static/css/animate.css">
+    <!-- Bootsnav -->
+    <link rel="stylesheet" href="/static/css/bootsnav.css">
+    <!-- Color style -->
+    <link rel="stylesheet" href="/static/css/color.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="/static/css/custom.css"/>
+    <link rel="stylesheet" href="/static/css/jquery.fileupload.css" />
+    <!--fluid --->
+    <link rel="stylesheet" href="/static/css/fluid/fluid-gallery.css" />
+</head>
+
+<body data-spy="scroll" data-target="#navbar-menu" data-offset="100">
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed white bootsnav on no-full no-background">
+
+    <div class="container">
+
+        <!-- Start Header Navigation -->
+        <div class="navbar-header">
+            <button data-target="#navbar-menu" data-toggle="collapse" class="navbar-toggle" type="button">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a href="#brand" class="navbar-brand">
+                <img alt="xd" class="logo logo-scrolled" src="/static/images/logo.png">
+            </a>
+        </div>
+        <!-- End Header Navigation -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse text-uppercase" id="navbar-menu">
+            <ul data-out="fadeOutUp" data-in="fadeInDown" class="nav navbar-nav">
+                <li role="presentation"><a href="#home">Home</a></li>
+                <li role="presentation"><a href="#upload">Classify Now</a></li>
+                <li role="presentation"><a href="#classified">Classified X-rays</a></li>
+                <li role="presentation"><a href="#about">About</a></li>
+                <li role="presentation"><a href="">Github</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+
+<header id="home">
+    <!-- Carousel -->
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="/static/images/slide_img.jpg" alt="Your X-ray expert"/>
+
+                <div class="container caption_area">
+                    <div class="carousel-caption">
+                        <h3></h3>
+                        <h1>Pneumonia Chest X-Ray Classification</h1>
+                        <p>agagjl jlg aljgalg jag</p>
+
+                        <a href="#upload" class="banner_btn">Try it now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/static/images/medical-ai.png" alt="Your X-ray expert"/>
+
+                <div class="container caption_area">
+                    <div class="carousel-caption">
+                        <h3></h3>
+                        <h1>Amazing AI</h1>
+                        <p> glagj lagjalg lagj lagj agljg</p>
+
+                        <a href="#upload" class="banner_btn">Try it now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Carousel end-->
+
+</header><!-- Header end -->
+
+<section id="upload">
+    <div class="container">
+        <div class="row">
+            <div class="grp-margin-top"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <div class="headding_area">
+                    <h2>Upload your chest X-ray images</h2>
+                    <hr/>
+                    <p>Please do not upload images of cats, dogs, or other animals you love dearly. Respect your AI
+                        doctor here, please</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 text-center">
+                <div class="col-md-5 vcenter">
+                    <div class="about_left">
+                        <img id="img-uploaded" src="/static/images/xray-placeholder.jpg" alt="upload your image"
+                             height="300" width="500"/>
+                    </div>
+                </div>
+
+                <div class="col-md-5 vcenter">
+                    <div class="btn btn-success fileinput-button">
+                        <i class="glyphicon glyphicon-plus"></i>
+                        <span>Select files... </span>
+                        <input id="fileupload" type="file" name="file"/>
+                    </div>
+
+                    <br>
+                    <br>
+                    <div id="progress" class="progress">
+                        <div class="progress-bar progress-bar-success"></div>
+                    </div>
+                    <div id="result" class="">
+                        <div class="progress-bar progress-bar-success"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="classified">
+    <div class="container gallery-container">
+        <div class="row">
+            <div class="grp-margin-top"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="headding_area">
+                    <h2>Latest Classified X-ray images</h2>
+                    <hr/>
+                    <h4>Normal Chest X-Ray</h4>
+                    <div class="tz-gallery">
+                        <div class="row" id="normal-xray-section">
+
+                        </div>
+                    </div>
+                     <hr/>
+                    <h4>Bacterial Pneumonia Chest X-Ray</h4>
+                    <div class="tz-gallery">
+                        <div class="row" id="bacterial-xray-section">
+
+                        </div>
+                    </div>
+                     <hr/>
+                    <h4>Viral Pneumonia Chest X-Ray</h4>
+                    <div class="tz-gallery">
+                        <div class="row" id="viral-xray-section">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <div class="headding_area">
+                    <h2>About this project</h2>
+                    <hr/>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. Aldus PageMaker
+                        including versions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <div class="about_left">
+                    <img src="/static/images/deeplearning.png" alt=""/>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="about_right">
+                    <p>Curabitur tempus, velit ac molestie consectetur, metus ex vestibulum turpis, non blandit libero
+                        mauris non mi. Nunc egestas viverra erat, eget scelerisque nisl maximus eu. Aenean faucibus erat
+                        nec leo aliquam placerat. Nulla dignissim, ante non tristique cursus, nibh odio feugiat nunc,
+                        non tempus magna ante at sem. Praesent ac tortor magna. Cras eu dui mattis, mollis est et,
+                        bibendum urna. Integer bibendum id ligula sit amet iaculis.</p>
+
+                    <p>Mauris porta mattis feugiat. Sed commodo, massa quis tristique venenatis, risus sem commodo leo,
+                        id porttitor mauris purus a enim. Donec luctus neque vel pharetra maximus. Cras cursus, nisi
+                        vitae ultricies euismod, ligula leo vestibulum ipsum, a mollis leo ante non quam. Phasellus nisl
+                        ipsum, iaculis aliquet lectus sit amet, suscipit faucibus eros. Praesent metus turpis, porta
+                        hendrerit rutrum pretium, porta quis nisi. Fusce at dolor auctor, pretium elit at, elementum
+                        lacus.</p>
+
+                </div>
+            </div>
+        </div>
+    </div><!-- container end -->
+
+</section><!-- About end -->
+
+<!-- Footer -->
+<footer>
+    <div class="container text-canter">
+        <ul class="list-inline footer_menu">
+            <li role="presentation"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#upload">Classify Now</a></li>
+            <li role="presentation"><a href="#classified">Classified X-rays</a></li>
+            <li role="presentation"><a href="#about">About</a></li>
+            <li role="presentation"><a href="#">Github</a></li>
+        </ul>
+        <a class="footer_logo" href="#"><img src="/static/images/logo.png" alt="bgstudio"/></a>
+
+        <ul class="list-inline social">
+        </ul>
+
+        <div class="footer-copyright text-center">
+            <p class="wow fadeInRight" data-wow-duration="1s">
+                <a target="_blank" href="http://bootstrapthemes.co">Bootstrap Themes</a>
+                2016. All Rights Reserved
+            </p>
+        </div>
+
+    </div>
+</footer><!-- Footer end -->
+
+
+<div class="scrollup">
+    <a href="#"><i class="glyphicon glyphicon-upload"></i></a>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/static/js/bootsnav.js"></script>
+<script type="text/javascript" src="/static/js/main.js"></script>
+<script src="/static/js/vendor/jquery.ui.widget.js"></script>
+<script src="/static/js/jquery.iframe-transport.js"></script>
+<script src="/static/js/jquery.fileupload.js"></script>
+<script src="/static/js/fileupload.js"></script>
+<script src="/static/js/gallary.js"></script>
+</body>
+</html>
