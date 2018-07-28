@@ -1,0 +1,277 @@
+FLATTEN
+
+ Model Name VGG16 at 2018-07-17 17:00:21
+Normal vs pneumonia, accuracy 0.8830  ,specificity 0.7051 ,sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.6490  ,specificity 0.4346 ,sensitivity 0.9876
+Viral vs others metrics, accuracy 0.7628  ,specificity 1.0000 ,sensitivity 0.0000
+
+ Model Name Xception at 2018-07-17 17:07:22
+Normal vs pneumonia, accuracy 0.9327  ,specificity 0.8590 ,sensitivity 0.9769
+Bacterial vs others metrics, accuracy 0.7115  ,specificity 0.5393 ,sensitivity 0.9835
+Viral vs others metrics, accuracy 0.7628  ,specificity 1.0000 ,sensitivity 0.0000
+
+ Model Name InceptionResNetV2 at 2018-07-17 17:11:15
+Normal vs pneumonia, accuracy 0.3750  ,specificity 1.0000 ,sensitivity 0.0000
+Bacterial vs others metrics, accuracy 0.6122  ,specificity 1.0000 ,sensitivity 0.0000
+Viral vs others metrics, accuracy 0.7628  ,specificity 1.0000 ,sensitivity 0.0000
+
+ Model Name InceptionV3 at 2018-07-17 17:17:02
+Normal vs pneumonia, accuracy 0.6250  ,specificity 0.0000 ,sensitivity 1.0000
+Bacterial vs others metrics, accuracy 0.3878  ,specificity 0.0000 ,sensitivity 1.0000
+Viral vs others metrics, accuracy 0.7628  ,specificity 1.0000 ,sensitivity 0.0000
+
+ Model Name ResNet50 at 2018-07-17 17:24:22
+Normal vs pneumonia, accuracy 0.6250  ,specificity 0.0000 ,sensitivity 1.0000
+Bacterial vs others metrics, accuracy 0.3878  ,specificity 0.0000 ,sensitivity 1.0000
+Viral vs others metrics, accuracy 0.7628  ,specificity 1.0000 ,sensitivity 0.0000
+
+ Model Name VGG16 pooling Global Average at 2018-07-17 17:29:01
+Normal vs pneumonia, accuracy 0.8862  ,specificity 0.7222 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8718  ,specificity 0.7958 ,sensitivity 0.9917
+Viral vs others metrics, accuracy 0.8798  ,specificity 0.9391 ,sensitivity 0.6892
+
+ Model Name Xception pooling Global Average at 2018-07-17 17:32:36
+Normal vs pneumonia, accuracy 0.8894  ,specificity 0.7350 ,sensitivity 0.9821
+Bacterial vs others metrics, accuracy 0.8718  ,specificity 0.8560 ,sensitivity 0.8967
+Viral vs others metrics, accuracy 0.8349  ,specificity 0.8655 ,sensitivity 0.7365
+
+ Model Name InceptionResNetV2 pooling Global Average at 2018-07-17 17:33:42
+Normal vs pneumonia, accuracy 0.8429  ,specificity 0.5897 ,sensitivity 0.9949
+Bacterial vs others metrics, accuracy 0.7051  ,specificity 0.5262 ,sensitivity 0.9876
+Viral vs others metrics, accuracy 0.8109  ,specificity 0.9643 ,sensitivity 0.3176
+
+ Model Name InceptionV3 pooling Global Average at 2018-07-17 17:36:05
+Normal vs pneumonia, accuracy 0.8862  ,specificity 0.7179 ,sensitivity 0.9872
+Bacterial vs others metrics, accuracy 0.8397  ,specificity 0.7618 ,sensitivity 0.9628
+Viral vs others metrics, accuracy 0.8317  ,specificity 0.9118 ,sensitivity 0.5743
+
+ Model Name ResNet50 pooling Global Average at 2018-07-17 17:39:42
+Normal vs pneumonia, accuracy 0.8381  ,specificity 0.6624 ,sensitivity 0.9436
+Bacterial vs others metrics, accuracy 0.8045  ,specificity 0.7330 ,sensitivity 0.9174
+Viral vs others metrics, accuracy 0.8510  ,specificity 0.9286 ,sensitivity 0.6014
+
+ Model Name VGG16 pooling Global Average With adam and .3 dropout at 2018-07-17 17:53:41
+Normal vs pneumonia, accuracy 0.8798  ,specificity 0.7308 ,sensitivity 0.9692
+Bacterial vs others metrics, accuracy 0.8237  ,specificity 0.7304 ,sensitivity 0.9711
+Viral vs others metrics, accuracy 0.8702  ,specificity 0.9622 ,sensitivity 0.5743
+
+ Model Name Xception pooling Global Average With adam and .3 dropout at 2018-07-17 17:57:19
+Normal vs pneumonia, accuracy 0.8958  ,specificity 0.7393 ,sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.8990  ,specificity 0.8508 ,sensitivity 0.9752
+Viral vs others metrics, accuracy 0.8590  ,specificity 0.9013 ,sensitivity 0.7230
+
+ Model Name InceptionResNetV2 pooling Global Average With adam and .3 dropout at 2018-07-17 17:58:37
+Normal vs pneumonia, accuracy 0.8926  ,specificity 0.7393 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8798  ,specificity 0.8246 ,sensitivity 0.9669
+Viral vs others metrics, accuracy 0.8654  ,specificity 0.9160 ,sensitivity 0.7027
+
+ Model Name InceptionV3 pooling Global Average With adam and .3 dropout at 2018-07-17 18:01:11
+Normal vs pneumonia, accuracy 0.8862  ,specificity 0.7137 ,sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.8478  ,specificity 0.7723 ,sensitivity 0.9669
+Viral vs others metrics, accuracy 0.8462  ,specificity 0.9160 ,sensitivity 0.6216
+
+ Model Name Xception pooling Global Average With adam and .3 dropout at 2018-07-17 18:29:15
+Normal vs pneumonia, accuracy 0.9006  ,specificity 0.7607 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8846  ,specificity 0.8377 ,sensitivity 0.9587
+Viral vs others metrics, accuracy 0.8622  ,specificity 0.9118 ,sensitivity 0.7027
+
+ Model Name InceptionResNetV2 pooling Global Average With adam and .3 dropout at 2018-07-17 18:32:02
+Normal vs pneumonia, accuracy 0.9006  ,specificity 0.7607 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8878  ,specificity 0.8351 ,sensitivity 0.9711
+Viral vs others metrics, accuracy 0.8750  ,specificity 0.9244 ,sensitivity 0.7162
+
+ Model Name InceptionV3 pooling Global Average With adam and .3 dropout at 2018-07-17 18:37:59
+Normal vs pneumonia, accuracy 0.8974  ,specificity 0.7436 ,sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.8766  ,specificity 0.8298 ,sensitivity 0.9504
+Viral vs others metrics, accuracy 0.8478  ,specificity 0.8971 ,sensitivity 0.6892
+
+ Model Name Xception pooling Global Average With adam and .3 dropout at 2018-07-17 18:57:41
+Normal vs pneumonia, accuracy 0.8990  ,specificity 0.7479 ,sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.9006  ,specificity 0.8534 ,sensitivity 0.9752
+Viral vs others metrics, accuracy 0.8574  ,specificity 0.9013 ,sensitivity 0.7162
+
+ Model Name InceptionResNetV2 pooling Global Average With adam and .3 dropout at 2018-07-17 18:58:40
+Normal vs pneumonia, accuracy 0.8846  ,specificity 0.7137 ,sensitivity 0.9872
+Bacterial vs others metrics, accuracy 0.8622  ,specificity 0.7932 ,sensitivity 0.9711
+Viral vs others metrics, accuracy 0.8750  ,specificity 0.9286 ,sensitivity 0.7027
+
+ Model Name InceptionV3 pooling Global Average With adam and .3 dropout at 2018-07-17 19:00:04
+Normal vs pneumonia, accuracy 0.9006  ,specificity 0.7650 ,sensitivity 0.9821
+Bacterial vs others metrics, accuracy 0.8766  ,specificity 0.8246 ,sensitivity 0.9587
+Viral vs others metrics, accuracy 0.8830  ,specificity 0.9328 ,sensitivity 0.7230
+
+ Model Name Xceptionimg size 224 * 224 pooling Global Average With adam and .3 dropout at 2018-07-17 19:08:32
+Normal vs pneumonia, accuracy 0.8942  ,specificity 0.7350 ,sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.9006  ,specificity 0.8534 ,sensitivity 0.9752
+Viral vs others metrics, accuracy 0.8558  ,specificity 0.8971 ,sensitivity 0.7230
+
+ Model Name InceptionResNetV2img size 224 * 224 pooling Global Average With adam and .3 dropout at 2018-07-17 19:09:29
+Normal vs pneumonia, accuracy 0.8862  ,specificity 0.7222 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8974  ,specificity 0.8534 ,sensitivity 0.9669
+Viral vs others metrics, accuracy 0.8798  ,specificity 0.9097 ,sensitivity 0.7838
+
+ Model Name InceptionV3img size 224 * 224 pooling Global Average With adam and .3 dropout at 2018-07-17 19:11:13
+Normal vs pneumonia, accuracy 0.8910  ,specificity 0.7350 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8846  ,specificity 0.8455 ,sensitivity 0.9463
+Viral vs others metrics, accuracy 0.8526  ,specificity 0.8929 ,sensitivity 0.7230
+
+ Model Name Xception pooling Global Average With adam and .5 dropout at 2018-07-17 19:18:07
+Normal vs pneumonia, accuracy 0.8846  ,specificity 0.7179 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8990  ,specificity 0.8482 ,sensitivity 0.9793
+Viral vs others metrics, accuracy 0.8542  ,specificity 0.8971 ,sensitivity 0.7162
+
+ Model Name InceptionResNetV2 pooling Global Average With adam and .5 dropout at 2018-07-17 19:19:23
+Normal vs pneumonia, accuracy 0.8878  ,specificity 0.7308 ,sensitivity 0.9821
+Bacterial vs others metrics, accuracy 0.8622  ,specificity 0.7906 ,sensitivity 0.9752
+Viral vs others metrics, accuracy 0.8814  ,specificity 0.9412 ,sensitivity 0.6892
+
+ Model Name InceptionV3 pooling Global Average With adam and .5 dropout at 2018-07-17 19:22:26
+Normal vs pneumonia, accuracy 0.8910  ,specificity 0.7350 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8782  ,specificity 0.8194 ,sensitivity 0.9711
+Viral vs others metrics, accuracy 0.8846  ,specificity 0.9307 ,sensitivity 0.7365
+
+ Model Name Xception pooling Global Average With adam and .3 dropout at 2018-07-17 19:28:02
+Normal vs pneumonia, accuracy 0.8878  ,specificity 0.7222 ,sensitivity 0.9872
+Bacterial vs others metrics, accuracy 0.8942  ,specificity 0.8403 ,sensitivity 0.9793
+Viral vs others metrics, accuracy 0.8526  ,specificity 0.8992 ,sensitivity 0.7027
+
+ Model Name InceptionResNetV2 pooling Global Average With adam and .3 dropout at 2018-07-17 19:29:23
+Normal vs pneumonia, accuracy 0.8862  ,specificity 0.7222 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8798  ,specificity 0.8220 ,sensitivity 0.9711
+Viral vs others metrics, accuracy 0.8782  ,specificity 0.9223 ,sensitivity 0.7365
+
+ Model Name InceptionV3 pooling Global Average With adam and .3 dropout at 2018-07-17 19:31:54
+Normal vs pneumonia, accuracy 0.8878  ,specificity 0.7265 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8814  ,specificity 0.8325 ,sensitivity 0.9587
+Viral vs others metrics, accuracy 0.8654  ,specificity 0.9076 ,sensitivity 0.7297
+
+ Model Name Xceptionadd dense pooling Global Average With adam and .5 dropout at 2018-07-17 19:37:51
+Normal vs pneumonia, accuracy 0.8814  ,specificity 0.7009 ,sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.8814  ,specificity 0.8168 ,sensitivity 0.9835
+Viral vs others metrics, accuracy 0.8590  ,specificity 0.9076 ,sensitivity 0.7027
+
+ Model Name InceptionResNetV2add dense pooling Global Average With adam and .5 dropout at 2018-07-17 19:40:11
+Normal vs pneumonia, accuracy 0.8654  ,specificity 0.6538 ,sensitivity 0.9923
+Bacterial vs others metrics, accuracy 0.7516  ,specificity 0.6021 ,sensitivity 0.9876
+Viral vs others metrics, accuracy 0.8638  ,specificity 0.9853 ,sensitivity 0.4730
+
+ Model Name InceptionV3add dense pooling Global Average With adam and .5 dropout at 2018-07-17 19:43:23
+Normal vs pneumonia, accuracy 0.9006  ,specificity 0.7692 ,sensitivity 0.9795
+Bacterial vs others metrics, accuracy 0.8686  ,specificity 0.8115 ,sensitivity 0.9587
+Viral vs others metrics, accuracy 0.8686  ,specificity 0.9307 ,sensitivity 0.6689
+
+ Model Name Xceptionimg size 224 pooling Global Average With adam and .4 dropout at 2018-07-17 21:18:20
+Normal vs pneumonia, accuracy 0.8910  ,specificity 0.7308 ,sensitivity 0.9872
+Bacterial vs others metrics, accuracy 0.8798  ,specificity 0.8220 ,sensitivity 0.9711
+Viral vs others metrics, accuracy 0.8670  ,specificity 0.9160 ,sensitivity 0.7095
+
+ Model Name InceptionResNetV2img size 224 pooling Global Average With adam and .4 dropout at 2018-07-17 21:19:27
+Normal vs pneumonia, accuracy 0.8830  ,specificity 0.7009 ,sensitivity 0.9923
+Bacterial vs others metrics, accuracy 0.8237  ,specificity 0.7173 ,sensitivity 0.9917
+Viral vs others metrics, accuracy 0.8606  ,specificity 0.9496 ,sensitivity 0.5743
+
+ Model Name InceptionV3img size 224 pooling Global Average With adam and .4 dropout at 2018-07-17 21:20:31
+Normal vs pneumonia, accuracy 0.8814  ,specificity 0.7179 ,sensitivity 0.9795
+Bacterial vs others metrics, accuracy 0.8413  ,specificity 0.7513 ,sensitivity 0.9835
+Viral vs others metrics, accuracy 0.8542  ,specificity 0.9391 ,sensitivity 0.5811
+
+ Model Name Xceptionimg size 320 pooling Global Average With adam and .4 dropout at 2018-07-18 00:11:55
+Normal vs pneumonia, accuracy 0.8990  ,specificity 0.7479 ,sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.8814  ,specificity 0.8168 ,sensitivity 0.9835
+Viral vs others metrics, accuracy 0.8830  ,specificity 0.9349 ,sensitivity 0.7162
+
+ Model Name InceptionResNetV2img size 320 pooling Global Average With adam and .4 dropout at 2018-07-18 00:13:18
+Normal vs pneumonia, accuracy 0.8862  ,specificity 0.7265 ,sensitivity 0.9821
+Bacterial vs others metrics, accuracy 0.8926  ,specificity 0.8351 ,sensitivity 0.9835
+Viral vs others metrics, accuracy 0.8718  ,specificity 0.9181 ,sensitivity 0.7230
+
+ Model Name InceptionV3img size 320 pooling Global Average With adam and .4 dropout at 2018-07-18 00:17:31
+Normal vs pneumonia, accuracy 0.8910  ,specificity 0.7521 ,sensitivity 0.9744
+Bacterial vs others metrics, accuracy 0.8590  ,specificity 0.7906 ,sensitivity 0.9669
+Viral vs others metrics, accuracy 0.8814  ,specificity 0.9475 ,sensitivity 0.6689
+
+ Model Name Xception img size 320 pooling Global Average With adam and .2 dropout at 2018-07-18 00:40:31
+Normal vs pneumonia, accuracy 0.8942  ,specificity 0.7393 ,sensitivity 0.9872
+Bacterial vs others metrics, accuracy 0.8990  ,specificity 0.8534 ,sensitivity 0.9711
+Viral vs others metrics, accuracy 0.8766  ,specificity 0.9118 ,sensitivity 0.7635
+
+ Model Name InceptionResNetV2 img size 320 pooling Global Average With adam and .2 dropout at 2018-07-18 00:42:55
+Normal vs pneumonia, accuracy 0.9071  ,specificity 0.7735 ,sensitivity 0.9872
+Bacterial vs others metrics, accuracy 0.8990  ,specificity 0.8429 ,sensitivity 0.9876
+Viral vs others metrics, accuracy 0.8830  ,specificity 0.9328 ,sensitivity 0.7230
+
+ Model Name InceptionV3 img size 320 pooling Global Average With adam and .2 dropout at 2018-07-18 00:47:27
+Normal vs pneumonia, accuracy 0.8814  ,specificity 0.7094 ,sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.8333  ,specificity 0.7382 ,sensitivity 0.9835
+Viral vs others metrics, accuracy 0.8782  ,specificity 0.9559 ,sensitivity 0.6284
+
+ Model Name Xception img size 320 pooling Global Average With adam and .5 dropout at 2018-07-18 00:56:17
+Normal vs pneumonia, accuracy 0.8926  ,specificity 0.7308 ,sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.8846  ,specificity 0.8220 ,sensitivity 0.9835
+Viral vs others metrics, accuracy 0.8798  ,specificity 0.9265 ,sensitivity 0.7297
+
+ Model Name InceptionResNetV2 img size 320 pooling Global Average With adam and .5 dropout at 2018-07-18 00:58:14
+Normal vs pneumonia, accuracy 0.8862  ,specificity 0.7265 ,sensitivity 0.9821
+Bacterial vs others metrics, accuracy 0.8846  ,specificity 0.8220 ,sensitivity 0.9835
+Viral vs others metrics, accuracy 0.8766  ,specificity 0.9265 ,sensitivity 0.7162
+
+ Model Name InceptionV3 img size 320 pooling Global Average With adam and .5 dropout at 2018-07-18 01:00:19
+Normal vs pneumonia, accuracy 0.8766  ,specificity 0.7094 ,sensitivity 0.9769
+Bacterial vs others metrics, accuracy 0.8526  ,specificity 0.7827 ,sensitivity 0.9628
+Viral vs others metrics, accuracy 0.8638  ,specificity 0.9265 ,sensitivity 0.6622
+
+ Model Name Xception img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-18 01:27:31
+Normal vs pneumonia, accuracy 0.8686  ,specificity 0.6538 ,sensitivity 0.9974
+Bacterial vs others metrics, accuracy 0.8766  ,specificity 0.8141 ,sensitivity 0.9752
+Viral vs others metrics, accuracy 0.8381  ,specificity 0.8782 ,sensitivity 0.7095
+
+ Model Name InceptionResNetV2 img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-18 01:28:17
+Normal vs pneumonia, accuracy 0.8990  ,specificity 0.7607 ,sensitivity 0.9821
+Bacterial vs others metrics, accuracy 0.9311  ,specificity 0.9241 ,sensitivity 0.9421
+Viral vs others metrics, accuracy 0.8686  ,specificity 0.8782 ,sensitivity 0.8378
+
+ Model Name InceptionV3 img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-18 01:30:22
+Normal vs pneumonia, accuracy 0.9006  ,specificity 0.7778 ,sensitivity 0.9744
+Bacterial vs others metrics, accuracy 0.8654  ,specificity 0.8220 ,sensitivity 0.9339
+Viral vs others metrics, accuracy 0.8718  ,specificity 0.9265 ,sensitivity 0.6959
+
+ Model Name InceptionResNetV2 img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-18 01:53:39
+Normal vs pneumonia, accuracy 0.8958  specificity 0.7436 sensitivity 0.9872
+Bacterial vs others metrics, accuracy 0.9022  specificity 0.8482 sensitivity 0.9876
+Viral vs others metrics, accuracy 0.8814  specificity 0.9223 sensitivity 0.7500
+
+ Model Name InceptionResNetV2 img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-19 00:00:47
+Normal vs pneumonia, accuracy 0.8878  specificity 0.7179 sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.9167  specificity 0.8770 sensitivity 0.9793
+Viral vs others metrics, accuracy 0.8654  specificity 0.8908 sensitivity 0.7838
+
+ Model Name InceptionResNetV2 img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-19 00:09:18
+Normal vs pneumonia, accuracy 0.8862  specificity 0.7137 sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.9215  specificity 0.9241 sensitivity 0.9174
+Viral vs others metrics, accuracy 0.8397  specificity 0.8382 sensitivity 0.8446
+
+
+ Model Name InceptionResNetV2 img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-19 00:19:59
+Normal vs pneumonia, accuracy 0.8958  specificity 0.7393 sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.9087  specificity 0.8613 sensitivity 0.9835
+Viral vs others metrics, accuracy 0.8718  specificity 0.9076 sensitivity 0.7568
+
+ Model Name ResNet50 img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-26 03:06:51
+Normal vs pneumonia, accuracy 0.8381  specificity 0.6923 sensitivity 0.9256
+Bacterial vs others metrics, accuracy 0.7388  specificity 0.6335 sensitivity 0.9050
+Viral vs others metrics, accuracy 0.8365  specificity 0.9706 sensitivity 0.4054
+
+ Model Name Xception img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-26 03:06:53
+Normal vs pneumonia, accuracy 0.8878  specificity 0.7308 sensitivity 0.9821
+Bacterial vs others metrics, accuracy 0.8862  specificity 0.8377 sensitivity 0.9628
+Viral vs others metrics, accuracy 0.8606  specificity 0.9055 sensitivity 0.7162
+
+ Model Name InceptionV3 img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-26 03:06:55
+Normal vs pneumonia, accuracy 0.8349  specificity 0.5769 sensitivity 0.9897
+Bacterial vs others metrics, accuracy 0.7837  specificity 0.6675 sensitivity 0.9669
+Viral vs others metrics, accuracy 0.8237  specificity 0.9097 sensitivity 0.5473
+
+ Model Name InceptionResNetV2 img size 320 pooling Max Pooling Average With adam .0005 lr and .2 dropout at 2018-07-26 03:06:57
+Normal vs pneumonia, accuracy 0.9054  specificity 0.7735 sensitivity 0.9846
+Bacterial vs others metrics, accuracy 0.9199  specificity 0.9188 sensitivity 0.9215
+Viral vs others metrics, accuracy 0.8798  specificity 0.8845 sensitivity 0.8649
