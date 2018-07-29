@@ -308,32 +308,6 @@ def predict_images(model_name, current_size):
             print (predictName, res)
 
 
-def iter_occlusion(image, size=8):
-
-    occlusion = np.full((size * 5, size * 5, 1), [0.5], np.float32)
-    occlusion_center = np.full((size, size, 1), [0.5], np.float32)
-    occlusion_padding = size * 2
-
-    # print('padding...')
-    image_padded = np.pad(image, ( \
-                        (occlusion_padding, occlusion_padding), (occlusion_padding, occlusion_padding), (0, 0) \
-                        ), 'constant', constant_values = 0.0)
-
-    for y in range(occlusion_padding, image.shape[0] + occlusion_padding, size):
-
-        for x in range(occlusion_padding, image.shape[1] + occlusion_padding, size):
-            tmp = image_padded.copy()
-
-            tmp[y - occlusion_padding:y + occlusion_center.shape[0] + occlusion_padding, \
-                x - occlusion_padding:x + occlusion_center.shape[1] + occlusion_padding] \
-                = occlusion
-
-            tmp[y:y + occlusion_center.shape[0], x:x + occlusion_center.shape[1]] = occlusion_center
-
-            yield x - occlusion_padding, y - occlusion_padding, \
-                  tmp[occlusion_padding:tmp.shape[0] - occlusion_padding, occlusion_padding:tmp.shape[1] - occlusion_padding]
-
-
 def main():
     current_model_name = 'InceptionResNetV2'
     current_size = '224_224'
