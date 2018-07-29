@@ -3,7 +3,7 @@
 ### Dataset:
 
 Only sample images are included. Full dataset of Chest X-Ray Images (Pneumonia) are not provided in this repository 
-and can be downloaded from Chest X-Ray images from [here](https://s3.us-east-2.amazonaws.com/chest-xay/chest_xray_original_07_23_2018.zip)
+and can be downloaded from [here](https://s3.us-east-2.amazonaws.com/chest-xay/chest_xray_original_07_23_2018.zip)
 
 ### Development Environment and Software
 
